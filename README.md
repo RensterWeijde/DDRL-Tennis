@@ -4,3 +4,9 @@ Tennis environment in DDRL nanodegree course
 Hey guys,
 
 Here is the final assignment for the Deep Reinforcement Learning nanodegree: MADDPG in the Unity Tennis environment.
+
+More information about the algorithm in the included report. 
+
+Cheers,
+
+Rens
