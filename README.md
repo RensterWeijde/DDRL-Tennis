@@ -11,7 +11,7 @@ The algorithm used is called MADDPG (Multi Agent Deep Deterministic Policy Gradi
 
 When it comes to activation layers; the networks use simple ReLU activation functions with tanh on the last layer. I tried implementing batchnorm on the first layer but got a size mismatch that I couldn’t fix, so in the end trained without it.
 
-The algorithm uses a lot of parameters, which I have optimized by learning from others’ recommendations. The final list of parameters used in this code is below.
+The algorithm uses a lot of parameters, which I have optimized by learning from others’ recommendations. The final list of parameters used in this code is below. More information on the MADDPG algorithm can be found here: https://papers.nips.cc/paper/7217-multi-agent-actor-critic-for-mixed-cooperative-competitive-environments.pdf
 
 BUFFER_SIZE = int(1e5)  
 BATCH_SIZE = 512         
@@ -27,3 +27,11 @@ OU_THETA = 0.13
 EPS_START = 5.5         
 EPS_EP_END = 250        
 EPS_FINAL = 0  
+
+# Dependencies
+Make sure that numpy, matplotlib, pytorch are installed. Use Python 3.6+. You can follow this tutorial for an easy installation of gym: https://github.com/openai/gym
+
+# Running the file
+With all the files in the same folder, just follow the Tennis.ipynb notebook.
+
+
