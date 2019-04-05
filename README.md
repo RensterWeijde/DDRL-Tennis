@@ -29,7 +29,13 @@ EPS_EP_END = 250
 EPS_FINAL = 0  
 
 # Dependencies
-Make sure that numpy, matplotlib, pytorch are installed. Use Python 3.6+. You can follow this tutorial for an easy installation of gym: https://github.com/openai/gym
+Make sure that numpy, matplotlib, pytorch are installed. Use Python 3.6+. You can follow this tutorial for an easy installation of gym: https://github.com/openai/gym. If you're not running the code inside the Udacity pre-made environment follow the dependencies in the requirements.txt file attached.
+
+# Installing the Unity environment
+Download the Unity ML environment from here: https://github.com/Unity-Technologies/ml-agents
+
+# Instructions
+Follow the instructions in Tennis.ipynb to get started with training your own agent!
 
 # Running the file
 With all the files in the same folder, just follow the Tennis.ipynb notebook.
